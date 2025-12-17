@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI-Project</title>
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>AI Sentiment Analyzer</h2>
+    <textarea id="userInput" placeholder="Type how you feel..."></textarea>
+    <button id="analyzeBtn" onclick="sendToAI()">Analyze Emotion</button>
+    <div id="result"></div>
+  </div>
+  <script type="module" src="/src/AI.js"></script>
+</body>
+
+</html>
